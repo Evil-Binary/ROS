@@ -1,0 +1,9 @@
+﻿#pragma once
+#pragma once
+void Forward();
+void Back();
+void Left();
+void Right();
+void Y_Left();
+void Y_Right();
+void Stop();

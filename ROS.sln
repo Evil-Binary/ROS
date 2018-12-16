@@ -5,6 +5,10 @@ VisualStudioVersion = 15.0.28307.106
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Arduino_ROS", "..\Arduino_ROS\Arduino_ROS.vcxproj", "{C5F80730-F44F-4478-BDAE-6634EFC2CA88}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Zhuhai_AROS", "Zhuhai_AROS\Zhuhai_AROS.vcxproj", "{75368C3D-ADE8-4247-9444-6DE2FACEA66E}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Arduino_TEST", "Arduino_TEST\Arduino_TEST.vcxproj", "{0CABB497-611B-4C49-B961-5BA6714B5596}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x86 = Debug|x86
@@ -15,6 +19,14 @@ Global
 		{C5F80730-F44F-4478-BDAE-6634EFC2CA88}.Debug|x86.Build.0 = Debug|Win32
 		{C5F80730-F44F-4478-BDAE-6634EFC2CA88}.Release|x86.ActiveCfg = Release|Win32
 		{C5F80730-F44F-4478-BDAE-6634EFC2CA88}.Release|x86.Build.0 = Release|Win32
+		{75368C3D-ADE8-4247-9444-6DE2FACEA66E}.Debug|x86.ActiveCfg = Debug|Win32
+		{75368C3D-ADE8-4247-9444-6DE2FACEA66E}.Debug|x86.Build.0 = Debug|Win32
+		{75368C3D-ADE8-4247-9444-6DE2FACEA66E}.Release|x86.ActiveCfg = Release|Win32
+		{75368C3D-ADE8-4247-9444-6DE2FACEA66E}.Release|x86.Build.0 = Release|Win32
+		{0CABB497-611B-4C49-B961-5BA6714B5596}.Debug|x86.ActiveCfg = Debug|Win32
+		{0CABB497-611B-4C49-B961-5BA6714B5596}.Debug|x86.Build.0 = Debug|Win32
+		{0CABB497-611B-4C49-B961-5BA6714B5596}.Release|x86.ActiveCfg = Release|Win32
+		{0CABB497-611B-4C49-B961-5BA6714B5596}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
