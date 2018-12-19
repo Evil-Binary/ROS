@@ -21,7 +21,7 @@
     <ClInclude Include="__vm\.Arduino_ROS.vsarduino.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="L298N_Motor.h">
+    <ClInclude Include="Arduino_ROS.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
