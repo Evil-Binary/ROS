@@ -25,7 +25,14 @@ F机械臂放
 **********/
 
 #define SHOW_MODE
+
 //#define GAME_MODE
+
+#ifdef SHOW_MODE
+#ifdef GAME_MODE
+#error
+#endif
+#endif
 
 //电机端口
 #define DIR1A 22		//Motor 1A
@@ -155,7 +162,7 @@ void setup() {
 	analogWrite(DIR4B, 255);
 
 	Serial.println("init ok");
-#if SHOW_MODE 1
+#ifdef SHOW_MODE
 	//放开
 	a_claw.write(90);
 	//右转机械臂
@@ -166,8 +173,8 @@ void setup() {
 	a_claw.write(0);
 
 	Forward(130, 3000);
-	Left(130, 1000);
-	Right(130, 1000);
+	Left(130, 3000);
+	Right(130, 3000);
 	Y_Left(200);
 	Y_Right(200);
 	Back(150, 1000);
@@ -180,7 +187,7 @@ void setup() {
 }
 
 // the loop function runs over and over again until power down or reset
-#if GAME_MODE
+#ifdef GAME_MODE
 void loop()
 {
 	//如果缓存区有东西
@@ -314,7 +321,7 @@ void loop()
 }
 #endif
 
-#if SHOW_MODE 1
+#ifdef SHOW_MODE
 void loop(){}
 #endif // SHOW_MODE
 
